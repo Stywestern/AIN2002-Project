@@ -1,0 +1,14 @@
+Packages:
+
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+skicit-learn
+xgboost
+torch
+torchmetrics
+random
+
+
