@@ -9,3 +9,5 @@ For each model used in the paper, there is an aptly named [model name].ipynb. Al
 ## Evaluation code
 Models are evaluated using the unlabeled test set to produce submission files, which is then submitted to the Kaggle competition (ref: https://www.kaggle.com/competitions/playground-series-s3e2/submissions) to get scores. Models are compared according to their public scores.
 
+## Try A Demo Of The Model 
+We have implemented a demo of our model using Gradio library, you can check it through [here](https://huggingface.co/spaces/Stywestern/Stroke-Prediction).
