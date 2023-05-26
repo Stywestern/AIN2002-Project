@@ -1,0 +1,52 @@
+@Article{key1,
+TITLE = {World Health Organization Eastern Mediterranean; Stroke, Cerebrovascular accident},
+JOURNAL = {WHO},
+howpublished = {\url{https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html}}
+}
+
+
+@Article{s22249859,
+AUTHOR = {Islam, Mohammed Saidul and Hussain, Iqram and Rahman, Md Mezbaur and Park, Se Jin and Hossain, Md Azam},
+TITLE = {Explainable Artificial Intelligence Model for Stroke Prediction Using EEG Signal},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {24},
+ARTICLE-NUMBER = {9859},
+URL = {https://www.mdpi.com/1424-8220/22/24/9859},
+PubMedID = {36560227},
+ISSN = {1424-8220},
+ABSTRACT = {State-of-the-art healthcare technologies are incorporating advanced Artificial Intelligence (AI) models, allowing for rapid and easy disease diagnosis. However, most AI models are considered &ldquo;black boxes,&rdquo; because there is no explanation for the decisions made by these models. Users may find it challenging to comprehend and interpret the results. Explainable AI (XAI) can explain the machine learning (ML) outputs and contribution of features in disease prediction models. Electroencephalography (EEG) is a potential predictive tool for understanding cortical impairment caused by an ischemic stroke and can be utilized for acute stroke prediction, neurologic prognosis, and post-stroke treatment. This study aims to utilize ML models to classify the ischemic stroke group and the healthy control group for acute stroke prediction in active states. Moreover, XAI tools (Eli5 and LIME) were utilized to explain the behavior of the model and determine the significant features that contribute to stroke prediction models. In this work, we studied 48 patients admitted to a hospital with acute ischemic stroke and 75 healthy adults who had no history of identified other neurological illnesses. EEG was obtained within three months following the onset of ischemic stroke symptoms using frontal, central, temporal, and occipital cortical electrodes (Fz, C1, T7, Oz). EEG data were collected in an active state (walking, working, and reading tasks). In the results of the ML approach, the Adaptive Gradient Boosting models showed around 80\% accuracy for the classification of the control group and the stroke group. Eli5 and LIME were utilized to explain the behavior of the stroke prediction model and interpret the model locally around the prediction. The Eli5 and LIME interpretable models emphasized the spectral delta and theta features as local contributors to stroke prediction. From the findings of this explainable AI research, it is expected that the stroke-prediction XAI model will help with post-stroke treatment and recovery, as well as help healthcare professionals, make their diagnostic decisions more explainable.},
+DOI = {10.3390/s22249859}
+}
+
+@Article{diagnostics12102392,
+AUTHOR = {Kokkotis, Christos and Giarmatzis, Georgios and Giannakou, Erasmia and Moustakidis, Serafeim and Tsatalas, Themistoklis and Tsiptsios, Dimitrios and Vadikolias, Konstantinos and Aggelousis, Nikolaos},
+TITLE = {An Explainable Machine Learning Pipeline for Stroke Prediction on Imbalanced Data},
+JOURNAL = {Diagnostics},
+VOLUME = {12},
+YEAR = {2022},
+NUMBER = {10},
+ARTICLE-NUMBER = {2392},
+URL = {https://www.mdpi.com/2075-4418/12/10/2392},
+PubMedID = {36292081},
+ISSN = {2075-4418},
+ABSTRACT = {Stroke is an acute neurological dysfunction attributed to a focal injury of the central nervous system due to reduced blood flow to the brain. Nowadays, stroke is a global threat associated with premature death and huge economic consequences. Hence, there is an urgency to model the effect of several risk factors on stroke occurrence, and artificial intelligence (AI) seems to be the appropriate tool. In the present study, we aimed to (i) develop reliable machine learning (ML) prediction models for stroke disease; (ii) cope with a typical severe class imbalance problem, which is posed due to the stroke patients&rsquo; class being significantly smaller than the healthy class; and (iii) interpret the model output for understanding the decision-making mechanism. The effectiveness of the proposed ML approach was investigated in a comparative analysis with six well-known classifiers with respect to metrics that are related to both generalization capability and prediction accuracy. The best overall false-negative rate was achieved by the Multi-Layer Perceptron (MLP) classifier (18.60%). Shapley Additive Explanations (SHAP) were employed to investigate the impact of the risk factors on the prediction output. The proposed AI method could lead to the creation of advanced and effective risk stratification strategies for each stroke patient, which would allow for timely diagnosis and the right treatments.},
+DOI = {10.3390/diagnostics12102392}
+}
+
+@misc{kaggle-dataset1,
+  title = {Stroke Prediction Dataset},
+  author = {{Fedosoriano}},
+  howpublished = {\url{https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset}},
+  publisher = {Kaggle},
+  year = {2021}
+}
+
+@misc{kaggle-dataset2,
+  title = {Binary Classification with a Tabular Stroke Prediction Dataset},
+  author = {},
+  howpublished = {\url{https://www.kaggle.com/competitions/playground-series-s3e2/data}},
+  publisher = {Kaggle},
+  year = {2023}
+}
